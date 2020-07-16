@@ -6,6 +6,24 @@ https://www.docker.com/get-started
 docker pull mongo
 ```
 
+## 更换镜像源 (Optional)
+编辑 ```daemon.json```
+
+```json
+{
+  "registry-mirrors" : [
+    "http://registry.docker-cn.com",
+    "http://docker.mirrors.ustc.edu.cn",
+    "http://hub-mirror.c.163.com"
+  ],
+  "insecure-registries" : [
+    "registry.docker-cn.com",
+    "docker.mirrors.ustc.edu.cn"
+  ]
+}
+```
+
+
 # 运行mongo
 ``` bash
 docker run -itd -v <LocalDirectoryPath>:/data/db --name mongo -p 27017:27017 mongo 
