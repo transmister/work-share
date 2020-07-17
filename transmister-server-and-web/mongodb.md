@@ -37,4 +37,6 @@ docker run -itd -v <LocalDirectoryPath>:/data/db --name mongo -p 27017:27017 mon
 > [参考](https://www.runoob.com/docker/docker-install-mongodb.html)
 
 ## 在Node.js中使用mongoDB
+
 > [官方参考文档 (MongoDB Node.js Driver)](https://docs.mongodb.com/drivers/node)
+> [mongoose](https://mongoosejs.com/)
