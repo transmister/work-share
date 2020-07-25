@@ -11,7 +11,7 @@ $ du -h source-code-backup.no
 0       source-code-backup.no
 ```
 
-[https://github.com/kelseyhightower/nocode]
+[kelseyhightower/nocode](https://github.com/kelseyhightower/nocode)
 
 ## Table of Content
 
