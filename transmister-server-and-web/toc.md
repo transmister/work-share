@@ -1,7 +1,8 @@
 # TOC
 
 - [快速开始](./快速开始.md)
-- [MongoDB](./mongodb.md)
+- [docs/](./docs/)
+  - [MongoDB](./docs/mongodb.md)
 - [TOC](./toc.md)
 - [plan/](./plan/)
     - [001-封装与服务器通讯时端对端加密](./plan/001-封装与服务器通讯时端对端加密.md)
