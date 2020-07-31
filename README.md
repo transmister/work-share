@@ -1,5 +1,9 @@
 # Work Share
 
+> 更新：我们计划在将来不久公开该仓库，请将所有文件翻译为英文。
+>
+> Update: We planned to make this repository public soon, please translate all the files to English.
+
 在这个仓库中，每个人都有权限修改所有文件，我们希望该仓库可以实时共享项目状态，以便开发。
 
 不过，注意如下几点：
