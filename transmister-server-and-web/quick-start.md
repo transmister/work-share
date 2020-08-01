@@ -24,8 +24,3 @@ Now, you can visit `http://localhost:[custom-port]` to debug.
 npm run build
 npm start
 ```
-
-## 计划
-
-1. [End-to-end encryption between the server and clients](./plan/001-end-to-end-encryption-between-the-server-and-clients.md)
-2. [Sign in and sign up features](./plan/002-sign-in-and-sign-up-features.md)
