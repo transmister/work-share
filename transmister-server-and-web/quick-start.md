@@ -1,32 +1,31 @@
-# 快速开始
+# Quick Start
 
-## 如何开始调试
+## How to start debugging
 
-默认在 80 端口开启调试服务器：
+Before starting the server, you need to make sure that MongoDB service is active. The server will automatically create a new database called 'transmister'.
+
+Then you can start the server starts at port 80 defaultly:
 
 ```powershell
-node server.js
+npm run dev
 ```
 
-如果 80 端口被占用将会报错并退出，可自定义端口：
+If port 80 is using by other tasks, the server will automatically throw out an error and stop, you can customize the port:
 
 ```powershell
 PORT=[custom-port] node server.js
 ```
 
-然后打开 `http://localhost:[custom-port]` ，即可开始调试，一旦代码发生更改，页面会自动刷新。
+Now, you can visit `http://localhost:[custom-port]` to debug.
 
-## 如何 `build`
+## Build
 
 ```powershell
-npx next build
-NODE_ENV=production node server.js # 使用 build 服务
+npm run build
+npm start
 ```
 
 ## 计划
 
-1. [封装与服务器通讯时端对端加密](./plan/001-封装与服务器通讯时端对端加密.md)
-2. [完成登录注册功能](./plan/002-完成登录注册功能.md)
-3. [完成聊天组件](./plan/003-完成聊天组件.md)
-4. [封装客户端对客户端加密](./plan/004-封装客户端对客户端加密.md)
-5. [完成聊天列表](./plan/005-完成聊天列表.md)
+1. [End-to-end encryption between the server and clients](./plan/001-end-to-end-encryption-between-the-server-and-clients.md)
+2. [Sign in and sign up features](./plan/002-sign-in-and-sign-up-features.md)
