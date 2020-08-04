@@ -4,7 +4,7 @@
 
 Before starting the server, you need to make sure that MongoDB service is active. The server will automatically create a new database called 'transmister'.
 
-Then you can start the server starts at port 80 defaultly:
+Then you can start the server starts at port 80 by default:
 
 ```powershell
 npm run dev
