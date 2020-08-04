@@ -1,18 +1,18 @@
 # MongoDB
 
-## 安装docker
+## Install docker
 
 https://www.docker.com/get-started
 
-## 获取mongo镜像
+## Get the Docker Image of MongoDB
 
 ``` bash
 docker pull mongo
 ```
 
-## 更换镜像源（可选）
+## Use a mirror in China Mainland (Optional)
 
-编辑 `daemon.json`
+Edit `daemon.json` as:
 
 ```json
 {
@@ -29,14 +29,14 @@ docker pull mongo
 ```
 
 
-# 运行mongo
+# Run MongoDB
 ``` bash
 docker run -itd -v <LocalDirectoryPath>:/data/db --name mongo -p 27017:27017 mongo
 ```
 
-> [参考](https://www.runoob.com/docker/docker-install-mongodb.html)
+> [Referance (zh_CN)](https://www.runoob.com/docker/docker-install-mongodb.html)
 
-## 在Node.js中使用mongoDB
+## Use MongoDB in Node.js
 
-> [官方参考文档 (MongoDB Node.js Driver)](https://docs.mongodb.com/drivers/node)
+> [Official Documentation (MongoDB Node.js Driver)](https://docs.mongodb.com/drivers/node)
 > [mongoose](https://mongoosejs.com/)
