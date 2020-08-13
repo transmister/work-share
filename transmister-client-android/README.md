@@ -1,1 +1,1 @@
-# Work Share of [transmister-client-android](https://github.com/transmister/transmister-client-android)
+# Work Share Directory of [transmister-client-android](https://github.com/transmister/transmister-client-android)

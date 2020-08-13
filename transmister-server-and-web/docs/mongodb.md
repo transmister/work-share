@@ -38,5 +38,4 @@ docker run -itd -v <LocalDirectoryPath>:/data/db --name mongo -p 27017:27017 mon
 
 ## Use MongoDB in Node.js
 
-> [Official Documentation (MongoDB Node.js Driver)](https://docs.mongodb.com/drivers/node)
 > [mongoose](https://mongoosejs.com/)

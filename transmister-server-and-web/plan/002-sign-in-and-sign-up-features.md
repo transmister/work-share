@@ -1,2 +1,3 @@
-# 完成登录注册功能
+# Finish Sign in and sign up features
 
+Finished.
