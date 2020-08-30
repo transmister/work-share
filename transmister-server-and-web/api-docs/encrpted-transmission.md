@@ -36,7 +36,7 @@ socket.on('e', (data) => {
 })
 ```
 
-Also all the sent or received messages are in JSON format as the [fixed structure](./message-structure.md). You can encapsulate this feature, this is a demo in JavaScript:
+Also all the sent or received messages are in JSON format as the [fixed structure](./message-structure.md). You can pack this feature, this is a demo in JavaScript:
 
 ```javascript
 // From transmister/transmister-server-and-web
